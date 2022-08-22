@@ -19,9 +19,8 @@ export default props => //Arrow function que recebe props como parametro
     <div className="app">
         <Logo />
         <Nav />
-        <Home>
-            <Routes/>
-        </Home>
+        
+        <Routes/>
         <Footer />
     </div>
 </BrowserRouter>    

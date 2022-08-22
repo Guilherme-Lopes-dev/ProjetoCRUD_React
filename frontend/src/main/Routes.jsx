@@ -1,19 +1,15 @@
-import React from "react";
-import {Routes, Route} from 'react-router-dom'
-import {Redirect} from 'react-router'
+import React from 'react'
+import { Switch, Route, Redirect } from 'react-router'
+
 import Home from '../components/home/Home'
-import UserCrud from "../components/user/UserCrud";
+import UserCrud from '../components/user/UserCrud'
 
-//Componente funcional, será usando :
-
-export default props=>(
-    <Routes>
-        <Route exact path='/' element={<Home/>}/>  
-        <Route path='/users' element={<UserCrud/>}/>
-        <Redirect path ='*' element={<Home/>}/>
-    </Routes>
-);
-
+export default props => 
+    <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/users' component={UserCrud} />
+        <Redirect from='*' to='/' />
+    </Switch>
 
 
 

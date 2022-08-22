@@ -1,14 +1,9 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Guilherme Lopes",
-      "email": "guilherme.cpmg@hotmail.com"
-    },
-    {
-      "id": 2,
-      "name": "Dine Henrique",
-      "email": "dine@dev.com.br"
+      "name": "Gui",
+      "email": "123",
+      "id": 1
     }
   ]
 }
