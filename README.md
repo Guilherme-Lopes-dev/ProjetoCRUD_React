@@ -1,7 +1,8 @@
 ## Welcome! 👋
 
 Design de aplicação feita em React
-![AplicaçãoCRUD](C:\Users\guilh\OneDrive\Área de Trabalho\Projeto para estudos - React\ProjetoCRUD_React\frontend\src\components\assets\imgs\TelaInicialAplicaçãomCRUD.png)
+![Design da aplicação](/frontend/src/components/assets/imgs/TelaInicialAplica%C3%A7%C3%A3omCRUD.png)
+![Design da aplicação](/frontend/src/components/assets/imgs/TelasAplica%C3%A7%C3%A3o.png)
                                   
 
 ## Observações:
